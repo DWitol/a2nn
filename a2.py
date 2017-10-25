@@ -19,12 +19,12 @@ print(c)
 class Node(object):
     prevLayer = []
     nextLayer = []
-    output = 0
+    output = None
 
     def output():
         for i in prevLayer:
             output += prevLayer[i].output()
-            
+
 
 
 class NeuralNetwork(object):
@@ -34,7 +34,7 @@ class NeuralNetwork(object):
 
 
     def make_student():
-        student = NeuralNetwork()
+        network = NeuralNetwork()
         return network
 
 
